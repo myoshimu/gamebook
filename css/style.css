@@ -1,0 +1,50 @@
+/**/
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  text-orientation: upright;
+  font-family: "秀英明朝 M JIS2004", "DNPShueiMinPr6N-M", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  background: ivory;
+    margin-left: 100px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.text-indent-6em {
+    text-indent: 6em;
+}
+.text-indent-5em {
+    text-indent: 5em;
+}
+p {
+    line-height: 1.8em; /* 行間 */
+    text-indent: 1em; /*冒頭の行インデント*/
+    margin-right: 10px;
+    text-align: justify;
+}
+a{
+/*  -webkit-text-combine: horizontal;
+  -moz-text-combine-upright: all; 
+  -ms-text-combine-horizontal:all;
+  text-combine-upright: all;*/
+  text-decoration: none;
+}
+
+#address {
+    text-indent: 5em; /*冒頭の行インデント*/
+}
+
+.option_address{
+  position:absolute;
+  bottom:40%;
+}
